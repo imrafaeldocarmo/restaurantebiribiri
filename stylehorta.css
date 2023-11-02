@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'TT-Commons';
+    src: url('Fontspring-DEMO-tt_commons_pro_light.otf') format('opentype'),
+}
+
+body {
+    font-family: TT-Commons, sans-serif;
+    color: black;
+    background-image: linear-gradient(to right, #6e9234, #fff);
+    text-align: justify;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(63, 47, 47, 0.479);
+}
+
+nav {
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+header img {
+    height: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a.logos {
+    margin-right: 10px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #6e9234;
+    
+}
+
+.ativa {
+    border-bottom: 2px solid black; /* Isso cria uma linha preta embaixo do texto */
+}
+
+.maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+iframe {
+    border: 0;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-total {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 5px; 
+    box-shadow: 3px 3px 3px rgba(63, 47, 47, 0.479);
+}
+
+.img img {
+    transition: filter 0.5s;
+}
+
+.img:hover img {
+    filter: brightness(10%);
+}
+
+.leg {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.img:hover .leg {
+    visibility: visible;
+    opacity: 1;
+}
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    bottom: 0;
+}
+
+footer > p {
+    margin: 0px;
+    font-size: 12px;
+}

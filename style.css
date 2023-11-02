@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'TT-Commons';
+    src: url('Fontspring-DEMO-tt_commons_pro_light.otf') format('opentype'),
+}
+
+body {
+    font-family: TT-Commons, sans-serif;
+    color: black;
+    background-image: linear-gradient(to right, #6e9234, #fff);
+    text-align: justify;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(63, 47, 47, 0.479);
+}
+
+nav {
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+header img {
+    height: 50px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a.logos {
+    margin-right: 10px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #6e9234;
+    
+}
+
+.ativa {
+    border-bottom: 2px solid black; /* Isso cria uma linha preta embaixo do texto */
+}
+
+.maps {
+    display: inline-block;
+}
+
+.maps iframe {
+    border: 0;
+    width: 80vw;
+    height: 60vh;
+    max-width: 800px;
+    max-height: 600px;
+    border-radius: 5px; 
+    box-shadow: 3px 3px 3px rgba(63, 47, 47, 0.479);    
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer > p {
+    margin: 0px;
+    font-size: 12px;
+}
