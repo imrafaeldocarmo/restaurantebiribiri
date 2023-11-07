@@ -101,18 +101,10 @@ main {
     flex: 1;
     padding: 10px;
     text-align: justify; 
-    border: 1px solid rgba(63, 47, 47, 0.479); ; /* Visualizar limite */
+    /* border: 1px solid rgba(63, 47, 47, 0.479); ; /* Visualizar limite */
     width: 400px;
     height: 300px;
     text-align: center;
-}
-
-.box {
-    text-align: left;
-}
-
-.boxxx {
-    text-align: right;
 }
 
 footer {

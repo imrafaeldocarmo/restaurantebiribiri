@@ -96,7 +96,7 @@ main {
 
 .img-total {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -118,7 +118,6 @@ main {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border-radius: 5px; 
     box-shadow: 3px 3px 3px rgba(63, 47, 47, 0.479);
 }
 
@@ -147,6 +146,34 @@ main {
 h1 {
     clear: both;
 }
+
+
+input[type=email] {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #6e9234;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2a3814;
+}
+
+form {
+    text-align: center;
+  }
 
 footer {
     background-color: #ffffff;
