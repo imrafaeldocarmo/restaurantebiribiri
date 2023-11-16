@@ -64,7 +64,7 @@ a:hover {
 }
 
 .ativa {
-    border-bottom: 2px solid black; /* Isso cria uma linha preta embaixo do texto */
+    border-bottom: 2px solid black;
 }
 
 .maps {
@@ -100,7 +100,7 @@ main {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border-radius: 5px; 
+    border-radius: 0px; 
     box-shadow: 3px 3px 3px rgba(63, 47, 47, 0.479);
 }
 
